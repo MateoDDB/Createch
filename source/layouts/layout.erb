@@ -5,14 +5,16 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
-    <%= favicon_tag 'images/favicon.png' %>
+    <%= favicon_tag 'images/LCreaB.png' %>
   </head>
   <body>
-    <%= partial 'navbar' %>
+    <%= partial "navbar" %>
     <%= yield %>
+    <%= partial "footer" %>
   </body>
 </html>

@@ -13,3 +13,8 @@
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+body {
+  max-width: 1500px;
+  margin: auto !important;
+}
