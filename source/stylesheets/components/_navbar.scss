@@ -32,6 +32,7 @@
 .navbar-wagon-link {
   color: white;
   font-size: 14px;
+  transition: 0.5s ease;
 }
 .navbar-wagon-link:hover {
   color: $red;
@@ -47,14 +48,16 @@
 .navbar-wagon-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
-  color: #999999 !important;
+  color: black !important;
   font-size: 15px !important;
   line-height: 22px !important;
   padding: 10px 20px;
+  margin: 10px 0px;
+  transition: 0.5s ease;
 }
 .navbar-wagon-dropdown-menu li > a:hover {
   background: transparent !important;
-  color: black !important;
+  color: $red !important;
 }
 .navbar-wagon-dropdown-menu:before {
   content: ' ';
@@ -67,4 +70,13 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+.dropdown-menu {
+  border-radius: 4px;
+}
+
+.dropdown-menu li > a {
+  margin: 10px 0px;
+  padding: 10px;
 }
