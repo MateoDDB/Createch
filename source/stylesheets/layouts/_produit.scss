@@ -1,21 +1,23 @@
 .caracteristic-product {
   padding: 20px;
-  ul {
-    padding: 20px;
-    border-radius: 4px;
+  p {
+    text-align: justify;
   }
 }
 
 .surlign {
-  display: inline-block;
-  margin-left: 20px;
   h2 {
-    -webkit-box-shadow: inset 0 -19px 0 rgba(183,47,38,0.38);
-    border-radius: 1px;
-    width: auto;
+    border-radius: 2px;
+    background: $blue;
+    color: white;
+    padding: 5px 15px;
+    font-size: 32px;
+    margin-top: 80px;
   }
 }
 
-.img-shadow {
-
+.w3-display-container {
+  img {
+    // margin-left: 80px;
+  }
 }
