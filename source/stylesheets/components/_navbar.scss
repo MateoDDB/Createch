@@ -33,6 +33,10 @@
   color: white;
   font-size: 14px;
   transition: 0.5s ease;
+  &:focus {
+    color: white;
+    text-decoration: none;
+  }
 }
 .navbar-wagon-link:hover {
   color: $red;
@@ -79,4 +83,10 @@
 .dropdown-menu li > a {
   margin: 10px 0px;
   padding: 10px;
+  transition: 0.6s ease;
+  &:hover {
+    background: $blue;
+    text-decoration: none;
+    color: white;
+  }
 }
