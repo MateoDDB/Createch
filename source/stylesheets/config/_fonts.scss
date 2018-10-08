@@ -1,9 +1,9 @@
 // Import Google fonts
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR");
+@import url('https://fonts.googleapis.com/css?family=Barlow|Roboto');
 
 // Define fonts for body and headers
-$body-font: "Noto Sans KR", "Helvetica", "sans-serif";
-$headers-font: "Raleway", "Helvetica", "sans-serif";
+$body-font: 'Barlow', "sans-serif" !important;
+$headers-font: "Roboto", "sans-serif" !important;
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
