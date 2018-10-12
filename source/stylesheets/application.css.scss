@@ -36,10 +36,28 @@ body {
   .footer-links {
     margin-top: -5px;
   }
-  .img-analyse {
-    height: 0px;
-  }
   .card-hover {
     z-index: 999;
+  }
+  .effect-css {
+    height: 0px;
+  }
+  .effect-css-two {
+    background-image: none !important;
+    color: $blue;
+    margin-bottom: 40px !important;
+    border: 1px solid $blue;
+    border-radius: 4px;
+    height: 420px;
+  }
+
+  .margin-ref-analyse {
+    margin-top: 60px !important;
+  }
+  .article-monde {
+    margin-left: 0 !important;
+  }
+  .banner-produit {
+    margin: 5px 50px 0px 50px !important;
   }
 }
