@@ -1,7 +1,7 @@
 <div class="navbar-wagon">
   <!-- Logo -->
-  <a href="index.html" class="navbar-wagon-brand">
-    <img src="images/logoBlanc.svg" alt="logo">
+  <a href="/" class="navbar-wagon-brand">
+    <%= image_tag "logoBlanc.svg", alt:"logo-createch" %>
   </a>
 
   <!-- Right Navigation -->
@@ -13,10 +13,10 @@
       </a>
 
       <ul class="dropdown-menu" aria-labelledby="dLabel">
-        <li><a href="index.html#analyse">Analyse des risques</a></li>
-        <li><a href="index.html#ingenierie">Ingénierie conseil</a></li>
-        <li><a href="index.html#securite">Sécurité systèmes informations</a></li>
-        <li><a href="index.html#innovation">Innovation R&D</a></li>
+        <li><%= link_to "Analyse des risques", "index.html#analyse" %></li>
+        <li><%= link_to "Ingénierie conseil", "index.html#ingenierie" %></li>
+        <li><%= link_to "Sécurité systèmes informations", "index.html#securite" %></li>
+        <li><%= link_to "Innovation R&D", "index.html#innovation" %></li>
       </ul>
     </div>
 
