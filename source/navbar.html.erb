@@ -1,14 +1,18 @@
-<div class="navbar-wagon">
+<div class="navbar-wagon z-depth-1">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <%= image_tag "logoBlanc.svg", alt:"logo-createch" %>
+    <%= image_tag "logoBleuSmall.svg", alt:"logo-createch" %>
   </a>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
     <div class="dropdown">
       <a id="dLabel" data-target="#" href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="navbar-wagon-item navbar-wagon-link">
-        Accueil
+        <% if current_page.url == "index.html"%>
+          <span class="">Acceuille</span>
+        <% else %>
+          Accueil
+        <% end %>
         <span class="caret"></span>
       </a>
 
@@ -50,9 +54,9 @@
     <div class="navbar-wagon-item">
       <div class="dropdown">
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <li><a href="index.html">Activités</a></li>
-          <li><a href="produit.html">Produits</a></li>
-          <li><a href="references.html">Projets références</a></li>
+          <li><%= link_to "Activités", "index.html"%></li>
+          <li><%= link_to "Produits", "produit.html"%></li>
+          <li><%= link_to "Projets références", "references.html"%></li>
         </ul>
       </div>
     </div>
@@ -61,11 +65,11 @@
   <!-- Dropdown appearing on mobile only -->
   <div class="navbar-wagon-item hidden-md hidden-lg">
     <div class="dropdown">
-      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown" style="color: white;"></i>
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="index.html">Activités</a></li>
-        <li><a href="produit.html">Produits</a></li>
-        <li><a href="references.html">Projets références</a></li>
+        <li><%= link_to "Activités", "index.html"%></li>
+        <li><%= link_to "Produits", "produit.html"%></li>
+        <li><%= link_to "Projets références", "references.html"%></li>
       </ul>
     </div>
   </div>
