@@ -8,8 +8,8 @@
   <div class="navbar-wagon-right hidden-xs hidden-sm">
     <div class="dropdown">
       <a id="dLabel" data-target="#" href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="navbar-wagon-item navbar-wagon-link">
-        <% if current_page.url == "index.html"%>
-          <span class="">Acceuille</span>
+        <% if current_page.path == "index.html"%>
+          <span class="" style="font-weight: bold; font-size: 22px;">Accueil</span>
         <% else %>
           Accueil
         <% end %>
@@ -26,7 +26,11 @@
 
     <div class="dropdown">
       <a id="dLabel" data-target="#" href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="navbar-wagon-item navbar-wagon-link">
-        Produits
+        <% if current_page.path == "produit.html"%>
+          <span class="" style="font-weight: bold; font-size: 22px;">Produits</span>
+        <% else %>
+          Produits
+        <% end %>
         <span class="caret"></span>
       </a>
 
@@ -39,14 +43,18 @@
 
     <div class="dropdown">
       <a id="dLabel" data-target="#" href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="navbar-wagon-item navbar-wagon-link">
-        Références
+        <% if current_page.path == "blog.html"%>
+          <span class="" style="font-weight: bold; font-size: 22px;">Références - Blog</span>
+        <% else %>
+          Références - Blog
+        <% end %>
         <span class="caret"></span>
       </a>
 
       <ul class="dropdown-menu" aria-labelledby="dLabel">
-        <li><%= link_to "Clients références", "references.html"%></li>
-        <li><%= link_to "Chiffres", "references.html#chiffres"%></li>
-        <li><%= link_to "Analyse des risques", "references.html#analyse-risque"%></li>
+        <li><%= link_to "Clients références", "blog.html"%></li>
+        <li><%= link_to "Chiffres", "blog.html#chiffres"%></li>
+        <li><%= link_to "Articles", "blog.html#article"%></li>
       </ul>
     </div>
 
@@ -56,7 +64,7 @@
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><%= link_to "Activités", "index.html"%></li>
           <li><%= link_to "Produits", "produit.html"%></li>
-          <li><%= link_to "Projets références", "references.html"%></li>
+          <li><%= link_to "Blog", "blog.html"%></li>
         </ul>
       </div>
     </div>
@@ -69,7 +77,7 @@
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
         <li><%= link_to "Activités", "index.html"%></li>
         <li><%= link_to "Produits", "produit.html"%></li>
-        <li><%= link_to "Projets références", "references.html"%></li>
+        <li><%= link_to "Blog", "blog.html"%></li>
       </ul>
     </div>
   </div>
