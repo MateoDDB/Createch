@@ -37,11 +37,22 @@ body {
     flex-direction: column;
     padding: 23px 0;
   }
+
+  .footer-copyright {
+    text-align: center;
+  }
+
   .footer-links {
     margin-top: -5px;
   }
   .card-hover {
     z-index: 999;
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
   }
   .effect-css {
     height: 0px;
@@ -61,5 +72,89 @@ body {
   }
   .banner-produit {
     margin: 5px 50px 0px 50px !important;
+  }
+
+  .banner {
+    h1 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 40px;
+      margin: 0px 5px;
+    }
+  }
+  .locked {
+    font-size: 24px;
+  }
+
+  .banner-produit h3 {
+    font-size: 16px;
+  }
+
+  .surlign h2 {
+    font-size: 20px;
+  }
+
+  .text-presentation-projet p {
+    font-size: 16px;
+  }
+
+  #chiffres {
+    h2 {
+      font-size: 32px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  .articles h1 {
+    font-size: 24px;
+  }
+
+  .title-description-article {
+    h2 {
+      font-size: 24px;
+    }
+
+    p{
+      font-size: 16px;
+      text-align: justify;
+    }
+  }
+
+  .article-title-descr-date {
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 16px;
+    }
+  }
+
+  .article {
+    h4 {
+      font-size: 16px;
+    }
+
+    h3 {
+      font-size: 20px;
+      text-align: left;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .card {
+    &:hover {
+      margin-top: none !important;
+    }
+  }
+
+  .prods h1 {
+    font-size: 24px !important;
   }
 }
