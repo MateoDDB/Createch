@@ -13,14 +13,6 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <meta content="<%= current_page.data.description %>" name="description" />
     <title><%= current_page.data.title %></title>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121187615-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-121187615-1');
-    </script>
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
@@ -44,6 +36,13 @@
       data-text-align="left"
            data-close-text="Got it!">
     </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121187615-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-121187615-1');
+    </script>
   </body>
 </html>
