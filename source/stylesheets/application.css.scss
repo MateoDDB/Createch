@@ -17,6 +17,7 @@
 body {
   max-width: 1500px !important;
   margin: auto !important;
+  overflow: hidden;
 }
 
 .margin-bottom {
@@ -29,6 +30,11 @@ body {
 
 .border-radius {
   border-radius: 4px;
+}
+
+.cookieinfo-close {
+  background : 'white' !important;
+  color : '#172A3A' !important;
 }
 
 @media screen and (max-width:640px) {

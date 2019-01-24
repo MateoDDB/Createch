@@ -1,4 +1,9 @@
 //= require jquery
 //= require bootstrap
 //= require_tree .
-  $('.container').carousel();
+$(document).ready(function(){
+  // $('.container').carousel();
+  $('.cookieinfo-close').css('')
+
+
+}) // Fin du DOM
