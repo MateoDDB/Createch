@@ -66,7 +66,11 @@ body {
   .effect-css-two {
     background-image: none !important;
     color: $blue;
+<<<<<<< HEAD
     margin: 0px 0px !important;
+=======
+    margin-bottom: 40px !important;
+>>>>>>> parent of 6b9f461... responsive
     height: 420px;
   }
 
@@ -120,7 +124,6 @@ body {
   }
 
   .title-description-article {
-    margin: 0px 0px !important;
     h2 {
       font-size: 24px;
     }
@@ -142,7 +145,6 @@ body {
   }
 
   .article {
-    text-align: left !important;
     h4 {
       font-size: 16px;
     }
@@ -166,13 +168,5 @@ body {
 
   .prods h1 {
     font-size: 24px !important;
-  }
-
-  .btn-article img{
-    margin-top: 40px !important;
-  }
-
-  .text-presentation-projet p{
-    text-align: left;
   }
 }
