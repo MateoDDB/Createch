@@ -66,7 +66,7 @@ body {
   .effect-css-two {
     background-image: none !important;
     color: $blue;
-    margin-bottom: 40px !important;
+    margin: 0px 0px !important;
     height: 420px;
   }
 
@@ -120,6 +120,7 @@ body {
   }
 
   .title-description-article {
+    margin: 0px 0px !important;
     h2 {
       font-size: 24px;
     }
@@ -141,7 +142,7 @@ body {
   }
 
   .article {
-    text-align: left;
+    text-align: left !important;
     h4 {
       font-size: 16px;
     }
@@ -165,5 +166,13 @@ body {
 
   .prods h1 {
     font-size: 24px !important;
+  }
+
+  .btn-article img{
+    margin-top: 40px !important;
+  }
+
+  .text-presentation-projet p{
+    text-align: left;
   }
 }
