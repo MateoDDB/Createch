@@ -26,7 +26,7 @@
   left: 0;
   height: 200px;
   margin: 30px 15px 10px 15px;
-  background: $gray;
+  background: $blue;
   border-radius: 4px;
   z-index: 100;
   color: white;
@@ -34,6 +34,10 @@
   text-align: center !important;
   h3 {
     margin-top: 60px;
+    font-size: 24px;
+  }
+  p{
+    font-size: 16px;
   }
   &:hover {
     z-index: 400;
