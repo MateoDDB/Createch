@@ -29,6 +29,8 @@
     <%= partial "footer" %>
     <script type="text/javascript" id="cookieinfo"
       src="//cookieinfoscript.com/js/cookieinfo.min.js"
+      data-message="En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de Cookies pour analyser l'audience sur notre site et vous proposer des services plus adaptés à vos centre d'interêts."
+      data-linkmsg="plus d'informations"
       data-bg="#172A3A"
       data-fg="#FFFFFF"
       data-link="#b60414"
@@ -53,15 +55,12 @@
     <script>
       let counter = 0;
       const carousselItems = document.querySelectorAll('.js-caroussel');
-
       setInterval(function(){
-
         if (counter >= carousselItems.length - 1) {
           counter = 0;
         } else {
           counter++;
         }
-
         for (let i = 0; i < carousselItems.length; i++) {
           if (carousselItems[i] != carousselItems[counter]) {
             carousselItems[i].classList.remove('is-visible');
@@ -69,6 +68,9 @@
         }
         carousselItems[counter].classList.add('is-visible');
       }, 5000);
+
+      let cookie = document.querySelectorAll('.cookieinfo span')
+      console.log(cookie)
     </script>
   </body>
 </html>
