@@ -16,6 +16,21 @@
   max-width: 1500px !important;
 }
 
+.navbar-scrool {
+  background-color: #F4F4F4;
+  transition: all 0.3s ease;
+  height: 50px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  max-width: 1500px !important;
+}
+
 /* Logo */
 .navbar-wagon-brand img {
   width: 100px;
@@ -44,6 +59,17 @@
     text-decoration: none;
   }
 }
+
+.navbar-wagon-link-scroll {
+  color: $blue;
+  font-size: 10px;
+  transition: 0.5s ease;
+  &:focus {
+    color: $blue;
+    text-decoration: none;
+  }
+}
+
 .navbar-wagon-link:hover {
   color: $red;
   text-decoration: none;

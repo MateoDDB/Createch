@@ -72,5 +72,21 @@
       let cookie = document.querySelectorAll('.cookieinfo span')
       console.log(cookie)
     </script>
+    <script>
+      scroll = 0
+      window.addEventListener('scroll', function(){
+        scroll = window.scrollY;
+        navBar = document.querySelector('.navbar-wagon')
+        navBarLogo = document.querySelector('.navbar-wagon-brand img')
+        if (scroll >= 70) {
+          navBar.classList.add("navbar-scrool");
+          navBarLogo.style.width = "80px";
+        }
+        else {
+          navBar.classList.remove('navbar-scrool');
+          navBarLogo.style.width = "100px";
+        }
+      });
+    </script>
   </body>
 </html>
