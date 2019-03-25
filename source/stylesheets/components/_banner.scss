@@ -3,14 +3,12 @@
   margin-top: 10vh;
   color: white;
   text-align: center;
-  height: 91vh;
-  /* if you have a 70px navbar => height: calc(100vh - 70px); */
-  // background-size: cover !important;
-  // background-position: center;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .banner h1 {
   font-size: 25px;
   font-weight: lighter;
