@@ -14,3 +14,6 @@ gem 'jquery-middleman'
 gem 'rake'
 gem 'puma'
 gem 'rack-contrib'
+
+gem "builder"
+

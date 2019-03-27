@@ -23,6 +23,7 @@ GEM
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
+    builder (3.2.3)
     byebug (10.0.2)
     coderay (1.1.2)
     coffee-script (2.4.1)
@@ -144,6 +145,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  builder
   font-awesome-sass
   jquery-middleman
   middleman (~> 4.2)
@@ -156,4 +158,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   1.16.2
+   1.17.3
