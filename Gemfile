@@ -13,7 +13,7 @@ gem 'jquery-middleman'
 
 gem 'rake'
 gem 'puma'
-# gem 'rack-contrib'
+gem 'rack-contrib'
 gem "rack", ">= 2.0.6"
 
 gem "builder"
