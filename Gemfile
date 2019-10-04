@@ -8,12 +8,13 @@ gem 'pry-byebug', require: true
 
 # Assets
 gem 'font-awesome-sass'
-gem 'bootstrap-sass'
+gem "bootstrap-sass", ">= 3.4.1"
 gem 'jquery-middleman'
 
 gem 'rake'
 gem 'puma'
-gem 'rack-contrib'
+# gem 'rack-contrib'
+gem "rack", ">= 2.0.6"
 
 gem "builder"
 
